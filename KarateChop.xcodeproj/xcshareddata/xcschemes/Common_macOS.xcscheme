@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D855DB851F6276E100A73B83"
-               BuildableName = "Common_macOS.framework"
+               BuildableName = "Common.framework"
                BlueprintName = "Common_macOS"
                ReferencedContainer = "container:KarateChop.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D855DB851F6276E100A73B83"
-            BuildableName = "Common_macOS.framework"
+            BuildableName = "Common.framework"
             BlueprintName = "Common_macOS"
             ReferencedContainer = "container:KarateChop.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D855DB851F6276E100A73B83"
-            BuildableName = "Common_macOS.framework"
+            BuildableName = "Common.framework"
             BlueprintName = "Common_macOS"
             ReferencedContainer = "container:KarateChop.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D855DB851F6276E100A73B83"
-            BuildableName = "Common_macOS.framework"
+            BuildableName = "Common.framework"
             BlueprintName = "Common_macOS"
             ReferencedContainer = "container:KarateChop.xcodeproj">
          </BuildableReference>

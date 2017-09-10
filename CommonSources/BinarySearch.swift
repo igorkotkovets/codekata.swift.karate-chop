@@ -8,12 +8,31 @@
 
 import Foundation
 
+enum BinarySearchError: Error {
+    case notFound
+}
+
+extension BinarySearchError: Equatable {
+    public static func ==(lhs: BinarySearchError, rhs: BinarySearchError) -> Bool {
+        switch (lhs, rhs) {
+        case (.notFound, .notFound):
+            return true
+        }
+    }
+}
+
 public protocol BinarySearchInterface {
-    static func findNearest(for value: Int, in list: [Int]) -> Int
+    static func findNearest(for value: Int, in list: [Int]) throws -> Int
 }
 
 public class IterativeBinarySearch: BinarySearchInterface {
-    static public func findNearest(for value: Int, in list: [Int]) -> Int {
-        return 0
+    static public func findNearest(for value: Int, in list: [Int]) throws -> Int {
+        for (index, listValue) in list.enumerated() {
+            if value == listValue {
+                return index
+            }
+        }
+        
+        throw BinarySearchError.notFound
     }
 }

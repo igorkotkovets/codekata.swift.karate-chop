@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D855DB621F6276A900A73B83"
-               BuildableName = "Common_iOS.framework"
+               BuildableName = "Common.framework"
                BlueprintName = "Common_iOS"
                ReferencedContainer = "container:KarateChop.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D855DB621F6276A900A73B83"
-            BuildableName = "Common_iOS.framework"
+            BuildableName = "Common.framework"
             BlueprintName = "Common_iOS"
             ReferencedContainer = "container:KarateChop.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D855DB621F6276A900A73B83"
-            BuildableName = "Common_iOS.framework"
+            BuildableName = "Common.framework"
             BlueprintName = "Common_iOS"
             ReferencedContainer = "container:KarateChop.xcodeproj">
          </BuildableReference>

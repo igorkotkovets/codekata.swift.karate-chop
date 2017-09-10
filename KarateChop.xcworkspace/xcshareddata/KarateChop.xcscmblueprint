@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "605451CF49041481A7FE36312A2FA7EE6297AEB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B65C83C3FA00E836BDB7AE82F4F79189CBC8D8A4" : 9223372036854775807,
+    "605451CF49041481A7FE36312A2FA7EE6297AEB6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B507FE98-C7C7-4623-8BD8-CB390E5D63E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B65C83C3FA00E836BDB7AE82F4F79189CBC8D8A4" : "CleanTests\/",
+    "605451CF49041481A7FE36312A2FA7EE6297AEB6" : "codekata.swift.karate-chop\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KarateChop",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KarateChop.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:igorkotkovets\/codekata.swift.karate-chop.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "605451CF49041481A7FE36312A2FA7EE6297AEB6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:igorkotkovets\/pod.swift.clean-tests.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B65C83C3FA00E836BDB7AE82F4F79189CBC8D8A4"
+    }
+  ]
+}
