@@ -8,12 +8,12 @@
 
 import Foundation
 
-enum BinarySearchError: Error {
+enum SearchError: Error {
     case notFound
 }
 
-extension BinarySearchError: Equatable {
-    public static func ==(lhs: BinarySearchError, rhs: BinarySearchError) -> Bool {
+extension SearchError: Equatable {
+    public static func ==(lhs: SearchError, rhs: SearchError) -> Bool {
         switch (lhs, rhs) {
         case (.notFound, .notFound):
             return true
@@ -21,18 +21,18 @@ extension BinarySearchError: Equatable {
     }
 }
 
-public protocol BinarySearchInterface {
-    static func findNearest(for value: Int, in list: [Int]) throws -> Int
+public protocol AlgorithmSearchInterface {
+    static func findPosition(for value: Int, in list: [Int]) throws -> Int
 }
 
-public class IterativeBinarySearch: BinarySearchInterface {
-    static public func findNearest(for value: Int, in list: [Int]) throws -> Int {
+public class IterativeSearch: AlgorithmSearchInterface {
+    static public func findPosition(for value: Int, in list: [Int]) throws -> Int {
         for (index, listValue) in list.enumerated() {
             if value == listValue {
                 return index
             }
         }
         
-        throw BinarySearchError.notFound
+        throw SearchError.notFound
     }
 }
